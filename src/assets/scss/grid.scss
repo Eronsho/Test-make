@@ -1,0 +1,31 @@
+.grid {
+  &__title {
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 592px;
+    margin: 25px 0 48px 0;
+  }
+
+  &__content {
+  }
+
+  &__img {
+    margin: 48px 0 64px 0;
+    text-align: center;
+  }
+
+  &__sub-title {
+    margin: 0 0 32px 0;
+  }
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  &__content {
+    width: 100%;
+    max-width: 276px;
+  }
+}

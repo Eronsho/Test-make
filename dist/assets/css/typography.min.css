@@ -1,0 +1,42 @@
+.typography {
+  margin: 14px 0 80px 0; }
+  .typography__text {
+    width: 100%;
+    max-width: 592px;
+    margin: 24px 0 48px 0; }
+  .typography__content {
+    width: 100%; }
+  .typography__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 0 0; }
+  .typography__container-left {
+    width: 100%;
+    max-width: 280px; }
+  .typography__container-right {
+    width: 100%;
+    max-width: 592px; }
+
+.tabs__btn-container {
+  width: 100%;
+  display: flex;
+  border-bottom: solid 1px #cbcbcc; }
+
+.tabs__btn {
+  border: none;
+  background: none;
+  padding: 0 0 15px;
+  margin: 0 32px 0 0;
+  cursor: pointer; }
+
+.tabs__btn.active {
+  border-bottom: solid 1px #3e29e3; }
+  .tabs__btn.active p {
+    color: #1b1b1b; }
+
+.tabs__item.active {
+  display: inline; }
+
+.tabs__item {
+  display: none; }

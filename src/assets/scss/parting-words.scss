@@ -1,0 +1,14 @@
+.parting {
+  width: 100%;
+  max-width: 592px;
+  &__title {
+    margin: 15px 0 16px 0;
+    p {
+      margin: 16px 0 0 0;
+    }
+  }
+
+  &__text {
+    margin: 64px 0 80px 0;
+  }
+}

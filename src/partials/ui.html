@@ -1,0 +1,268 @@
+<div class="ui" id="head4">
+  <div class="ui__title">
+    <h1 class="title-1">UI</h1>
+  </div>
+  <div class="ui__content">
+    <div class="ui__sub-title">
+      <h3 class="title-3">Текстовое поле</h2>
+    </div>
+    <form class="ui__container">
+      <div class="input-container">
+        <p class="decor-text"></p>
+        <label for="email-1"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="E-mail"
+          class="input text"
+        />
+        <div class="requirements sub-text">Текст ошибки</div>
+      </div>
+      <div class="input-container">
+        <p class="decor-text">Ховер</p>
+        <label for="email-2"></label>
+        <input
+          type="email"
+          placeholder="E-mail"
+          id="email-2"
+          name="email"
+          required
+          class="input text"
+        />
+        <div class="requirements sub-text">Текст ошибки</div>
+      </div>
+      <div class="input-container">
+        <p class="decor-text">Ввод</p>
+        <label for="email-3" class="decor-text">E-mail</label>
+        <input
+          type="email"
+          placeholder="E-mail"
+          id="email-3"
+          name="email"
+          required
+          class="input text"
+        />
+        <div class="requirements sub-text">Текст ошибки</div>
+      </div>
+      <div class="input-container">
+        <p class="decor-text">Ошибка</p>
+        <label for="email-4" id="lebel-id" class="decor-text label-red"
+          >E-mail</label
+        >
+        <input
+          type="email"
+          placeholder="E-mail"
+          id="email-4"
+          name="email-4"
+          required
+          class="input text"
+        />
+        <div class="requirements sub-text">Текст ошибки</div>
+      </div>
+    </form>
+  </div>
+  <div class="ui__content">
+    <div class="ui__sub-title">
+      <h3 class="title-3">Выпадающий список</h3>
+    </div>
+    <div class="ui__text">
+      <p class="text">
+        Компонент состоит из текстового поля и выпадающей подсказки
+      </p>
+    </div>
+    <div class="ui__container">
+      <div class="dropdown">
+        <p class="decor-text"></p>
+        <div class="dropdown__content" data-tab="#dropdown-1">
+          <li class="dropdown-active">
+            <a class="text"> Выберите что-нибудь</a>
+          </li>
+        </div>
+        <div class="dropdown__container" id="dropdown-1">
+          <ul class="dropdown__list">
+            <li class="dropdown__link"><a class="text">Первый стул</a></li>
+            <li class="dropdown__link"><a class="text">Второй стул</a></li>
+            <li class="dropdown__link">
+              <a class="text">Выбранный пункт</a>
+            </li>
+            <li class="dropdown__link">
+              <a class="text">Теорема Эскобара</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="dropdown">
+        <p class="decor-text"></p>
+        <div class="dropdown__content" data-tab="#dropdown-2">
+          <li class="dropdown-active">
+            <a class="text"> Выберите что-нибудь</a>
+          </li>
+        </div>
+        <div class="dropdown__container" id="dropdown-2">
+          <ul class="dropdown__list">
+            <li class="dropdown__link"><a class="text">Первый стул</a></li>
+            <li class="dropdown__link"><a class="text">Второй стул</a></li>
+            <li class="dropdown__link">
+              <a class="text">Выбранный пункт</a>
+            </li>
+            <li class="dropdown__link">
+              <a class="text">Теорема Эскобара</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="dropdown">
+        <p class="decor-text">Выберите что-нибудь</p>
+        <div class="dropdown__content" data-tab="#dropdown-3">
+          <li class="dropdown-active">
+            <a class="text"> Выберите что-нибудь</a>
+          </li>
+        </div>
+        <div class="dropdown__container" id="dropdown-3">
+          <ul class="dropdown__list">
+            <li class="dropdown__link"><a class="text">Первый стул</a></li>
+            <li class="dropdown__link"><a class="text">Второй стул</a></li>
+            <li class="dropdown__link">
+              <a class="text">Выбранный пункт</a>
+            </li>
+            <li class="dropdown__link">
+              <a class="text">Теорема Эскобара</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="ui__content">
+      <div class="ui__sub-title">
+        <h3 class="title-3">Кнопка</h3>
+      </div>
+      <div class="ui__container">
+        <div class="btn-container">
+          <p class="decor-text"></p>
+          <button class="btn"><p>Отправить</p></button>
+        </div>
+        <div class="btn-container">
+          <p class="decor-text">Ховер</p>
+          <button class="btn"><p>Отправить</p></button>
+        </div>
+        <div class="btn-container">
+          <p class="decor-text">Нажатие</p>
+          <button class="btn"><p>Отправить</p></button>
+        </div>
+        <div class="btn-container">
+          <p class="decor-text">Неактивна</p>
+          <button type="button" disabled class="btn"><p>Отправить</p></button>
+        </div>
+      </div>
+    </div>
+    <div class="ui__content">
+      <div class="ui__sub-title">
+        <h3 class="title-3">Чекбокс, радиобаттон</h3>
+      </div>
+      <div class="ui__container">
+        <div class="chek-container">
+          <div class="chek-content">
+            <input class="checkbox" type="checkbox" disabled name="1" id="1" />
+            <label class="checkbox-label text" for="1">Выбери меня</label>
+          </div>
+          <div class="chek-content">
+            <input class="checkbox" type="checkbox" name="2" id="2" />
+            <label class="checkbox-label text" for="2">Выбери меня</label>
+          </div>
+          <div class="chek-content">
+            <input class="checkbox" type="checkbox" name="3" id="3" checked />
+            <label class="checkbox-label text" for="3"
+              >Птица счастья завтрашнего дня</label
+            >
+          </div>
+        </div>
+        <div class="chek-container">
+          <div class="radio-content">
+            <input
+              class="radio"
+              type="radio"
+              name="radio"
+              value="1"
+              id="4"
+              disabled
+            />
+            <label class="radio-label text" for="4"
+              >Пластмассовый мир победил</label
+            >
+          </div>
+          <div class="radio-content">
+            <input class="radio" type="radio" name="radio" value="2" id="5" />
+            <label class="radio-label text" for="5"
+              >Макет оказался сильней</label
+            >
+          </div>
+          <div class="radio-content">
+            <input
+              class="radio"
+              type="radio"
+              name="radio"
+              value="3"
+              checked
+              id="6"
+            />
+            <label class="radio-label text" for="6"
+              >Последний кораблик остыл</label
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui__content">
+      <div class="ui__sub-title">
+        <h3 class="title-3">Аккордеон</h3>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion__content">
+          <div class="accordion__title tabs__btn-acc" data-tab="#Accordion-1">
+            <p class="decor-text">Аккордеон</p>
+          </div>
+          <div class="accordion__text tabs__item-acc" id="Accordion-1">
+            <p class="text">
+              Гоpдость полными вагонами золотыми погонами С юга дyют молодые
+              вет… Pазpывая в клочья облака не забыли шлют из далека С дома мама
+              И не последняя любовь А по небy бегyт видишь чьи-то следы Это
+              может быть ты это может быть я Это может наш дрyг Это может нам
+              поют свои
+            </p>
+          </div>
+        </div>
+        <div class="accordion__content">
+          <div class="accordion__title tabs__btn-acc" data-tab="#Accordion-2">
+            <p class="decor-text">Аккордеон</p>
+          </div>
+          <div class="accordion__text tabs__item-acc" id="Accordion-2">
+            <p class="text">
+              Гоpдость полными вагонами золотыми погонами С юга дyют молодые
+              вет… Pазpывая в клочья облака не забыли шлют из далека С дома мама
+              И не последняя любовь А по небy бегyт видишь чьи-то следы Это
+              может быть ты это может быть я Это может наш дрyг Это может нам
+              поют свои
+            </p>
+          </div>
+        </div>
+        <div class="accordion__content">
+          <div class="accordion__title tabs__btn-acc" data-tab="#Accordion-3">
+            <p class="decor-text">Аккордеон</p>
+          </div>
+          <div class="accordion__text tabs__item-acc" id="Accordion-3">
+            <p class="text">
+              Гоpдость полными вагонами золотыми погонами С юга дyют молодые
+              вет… Pазpывая в клочья облака не забыли шлют из далека С дома мама
+              И не последняя любовь А по небy бегyт видишь чьи-то следы Это
+              может быть ты это может быть я Это может наш дрyг Это может нам
+              поют свои
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

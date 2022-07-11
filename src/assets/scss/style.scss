@@ -1,0 +1,120 @@
+body {
+  background-color: F2F2F2;
+}
+@import "../scss/footer.scss";
+@import "../scss/grid.scss";
+@import "../scss/header.scss";
+@import "../scss/menu.scss";
+@import "../scss/navbar.scss";
+@import "../scss/ui.scss";
+@import "../scss/typography.scss";
+@import "../scss/reset.scss";
+@import "../scss/parting-words.scss";
+@font-face {
+  font-family: "GraphikLCG";
+  src: local("GraphikLCG"), url("../fonts/GraphikLCG-Bold.otf") format("otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.container {
+}
+
+.decor-text {
+  font-family: "GraphikLCG";
+  font-size: 14px;
+  line-height: 20px;
+  color: #7d7d7d;
+}
+.title-2 {
+  font-family: "GraphikLCG";
+  font-size: 32px;
+  line-height: 40px;
+  color: #1b1b1b;
+}
+.text {
+  font-family: "GraphikLCG";
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1b1b;
+}
+
+.title-1 {
+  font-family: "GraphikLCG";
+  font-size: 48px;
+  line-height: 56px;
+  color: #1b1b1b;
+}
+.title-3 {
+  font-family: "GraphikLCG";
+  font-size: 24px;
+  line-height: 32px;
+  color: #1b1b1b;
+}
+.title-4 {
+  font-family: "GraphikLCG";
+  font-size: 18px;
+  line-height: 28px;
+  color: #1b1b1b;
+}
+.text-lead {
+  font-family: "GraphikLCG";
+  font-size: 24px;
+  line-height: 32px;
+  color: #1b1b1b;
+}
+.text-large {
+  font-family: "GraphikLCG";
+  font-size: 18px;
+  line-height: 28px;
+  color: #1b1b1b;
+}
+.sub-text {
+  font-family: "GraphikLCG";
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1b1b;
+}
+#phone {
+  .title-2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .title-1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .title-3 {
+    font-size: 20;
+    line-height: 28px;
+  }
+  .title-4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .text-lead {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text-large {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .sub-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

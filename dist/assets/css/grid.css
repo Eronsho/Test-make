@@ -1,0 +1,26 @@
+.grid__text {
+    width: 100%;
+    max-width: 592px;
+    margin: 25px 0 48px 0;
+}
+
+.grid__img {
+    margin: 48px 0 64px 0;
+    text-align: center;
+}
+
+.grid__sub-title {
+    margin: 0 0 32px 0;
+}
+
+.description {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.description__content {
+    width: 100%;
+    max-width: 276px;
+}
